@@ -8,7 +8,7 @@ export default function fragment(){
         
             <React.Fragment>
              <h1>Tags</h1>
-            <h2>Adjacentes</h2>
+             <h2>Adjacentes</h2>
             </React.Fragment>
     )
 }
