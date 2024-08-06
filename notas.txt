@@ -2,4 +2,4 @@
 
 # Todo arquivo em pages fica na rota de navegação automaticamente.
 
-#
+#Material icon no vscode - languade mode para javascript.:wq
