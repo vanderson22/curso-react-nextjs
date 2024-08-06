@@ -1,0 +1,16 @@
+/* module significa um css específico e não global */
+
+.vermelho {
+
+    color: red;
+}
+
+.azul {
+
+    color: blue;
+    background-color: azure;
+}
+
+#integracao2 {
+    align-items: center;
+}
