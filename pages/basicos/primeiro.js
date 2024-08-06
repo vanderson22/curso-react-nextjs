@@ -2,6 +2,8 @@
 //exportando função
 export default function primeiro(){
 
-    return "Primeiro v1.2";
+    //JSX
+    return <h1>Primeiro jsx</h1>;
 }
 
+ 

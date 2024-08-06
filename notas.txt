@@ -1,0 +1,5 @@
+
+
+# Todo arquivo em pages fica na rota de navegação automaticamente.
+
+#
