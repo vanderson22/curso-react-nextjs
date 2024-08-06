@@ -1,5 +1,5 @@
 //Maiusculo pois não é uma URL.
-export default function Titulo(propriedades){
+export default function Titulo(propriedades) {
 
     // propredades - contem as propriedades 
     // <Titulo  principal="Página de cadastro" 
@@ -7,8 +7,8 @@ export default function Titulo(propriedades){
 
     return (
         <>
-         <h1>{propriedades.principal}</h1>
-         <h2>{propriedades.subtitulo}</h2>
+            <h1>{propriedades.principal}</h1>
+            <h2>{propriedades.subtitulo}</h2>
         </>
     )
 
