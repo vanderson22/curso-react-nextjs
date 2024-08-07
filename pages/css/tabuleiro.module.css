@@ -1,0 +1,13 @@
+
+.fundo {
+     background-position: center;  /* Center the background image */
+     background-color: gray; /* Fallback color */
+     size: 3000px;
+}
+
+.quadrado {
+     display: inline-block; /* Ensure the span respects width and height */
+     width: 100px;
+     height: 100px;
+     margin: 0%;
+    }
