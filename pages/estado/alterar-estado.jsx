@@ -1,22 +1,19 @@
-import { useState } from 'react';
-
+import React, { useState } from 'react';
 
 export default function AlterarEstado() {
-
-    const arrayX = useState('Parado');
-    let valorx = arrayX[0];
-    const alterarX = arrayX[1];
+    const [valorX, setValorX] = useState('Parado');
+    const [valorY, setValorY] = useState('Parado');
 
     function moverMouse(ev) {
-
-        alterarX('movendo ...' + ev.clientX);
+        setValorX(`X: ${ev.clientX}`);
+        setValorY(`Y: ${ev.clientY}`);
     }
 
-
     return (
-        <div onMouseMove={moverMouse}>
-
-            Altrando o eixo X : {valorx}
+        <div onMouseMove={moverMouse} style={{ height: '100vh' }}>
+            Alterando o eixo: {valorX}
+            <br ></br>
+            Alterando o eixo: {valorY}
         </div>
-    )
+    );
 }
