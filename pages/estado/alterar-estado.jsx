@@ -10,7 +10,7 @@ export default function AlterarEstado() {
     }
 
     return (
-        <div onMouseMove={moverMouse} style={{ height: '100vh' }}>
+        <div onMouseMove={moverMouse} style={{ height: '139vh' }}>
             Alterando o eixo: {valorX}
             <br ></br>
             Alterando o eixo: {valorY}
